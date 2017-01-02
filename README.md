@@ -1,4 +1,12 @@
 # Project-HistoViewer
+-------------01/01/2017-------------
+
+Integrate an already-developed plug-in OSD-Annotation and it
+enable us to draw annotation as u like! Wonderful plug-in
+
+Next-to-do:
+
+Save and load annotation and pins as csv file.
 
 -------------11/17/2016-------------
 Now we can load raw csv
