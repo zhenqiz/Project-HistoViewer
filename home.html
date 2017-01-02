@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
-<body>
     <div id="openseadragon1" style="width: 800px; height: 600px;"></div>
+    <input type="file" id="csv_file" name="files"/>
+    <div id="result" name="result"></div>
     <h1> Viewer: innerTracker--delegate canvas-click event</h1>
+    <h2> Newest update: integrate openseadragon-annotations thanks to @Emigre on github, we can draw an annotation now. But still, pin is active.</h2>
     <h2> Basic thought: add a property that identify if pinButton is clicked or not, if clicked, disable click-zoom&instead add a pin</h2>
     <h2> Then on the right of it we'll have a info box containing all overlays</h2>
 </body>
     <script src="scripts/openseadragon.js"></script>
+    <script src="scripts/dist/openseadragon-annotations.js"></script>
     <script src="scripts/overlay.js"></script>
+    <script src="scripts/inputfile.js"></script>
 </html>

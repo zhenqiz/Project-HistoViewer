@@ -1,20 +1,25 @@
 /**
  * Created by zhenqiz on 11/11/2016.
  */
+
 var viewer = OpenSeadragon({
-    id: "openseadragon1",
+    id: 'openseadragon1',
     prefixUrl: "scripts/images/",
-    tileSources:{
+    showNavigator:  true,
+    tileSources: {
         Image: {
-            xmlns: "http://schemas.microsoft.com/deepzoom/2009",
-            Url: "./maple0002_files/",
-            Format: "jpg",
-            Overlap: "1",
-            TileSize: "256",
+            xmlns: 'http://schemas.microsoft.com/deepzoom/2008',
+            Url: './maple0002_files/',
+            Format: 'jpg',
+            Overlap: '1',
+            TileSize: '254',
+            ServerFormat: 'Default',
             Size: {
-                Height: "768",
-                Width:  "1291"
+                Height: '768',
+                Width: '1291'
             }
         }
     }
 });
+
+viewer.initializeAnnotations();
