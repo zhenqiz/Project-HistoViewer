@@ -58,3 +58,4 @@ Calling `viewer.annotations.get()` will return an Array of annotations. Annotati
 You can call `viewer.annotations.set()` and pass one of those Array of Arrays to reset the current drawing to that particular data.
 
 `viewer.annotations.clean()` will erase all annotations currently on screen.
+

@@ -1,4 +1,14 @@
 # Project-HistoViewer
+-------------01/02/2017-------------
+
+Now we can export annotations as csv files and import it back. Not for pin points yet, but I'll do this later
+
+Text box is also in progress
+
+Next-to-do:
+
+More function and maybe can start to take look at applying ML now?..:D
+
 -------------01/01/2017-------------
 
 Integrate an already-developed plug-in OSD-Annotation and it

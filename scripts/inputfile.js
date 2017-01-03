@@ -5,8 +5,6 @@ control.addEventListener("change", function readAsText(){
         // Read files
         reader.readAsText(file);
         reader.onload = function(){
-            var result = document.getElementById("result");
-            // Show files
-            result.innerHTML=this.result;
+            viewer.annotations.set(JSON.parse(this.result));
         }
 }, false);
